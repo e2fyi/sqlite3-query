@@ -1,0 +1,36 @@
+{
+  "name": "@e2fyi/sqlite3-query",
+  "version": "1.0.0",
+  "description": "A simple query language (and ORM) that works with better-sqlite3.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2fyi/sqlite3-query.git"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "better-sqlite3",
+    "dsl",
+    "query",
+    "sql"
+  ],
+  "author": " <eterna2>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/e2fyi/sqlite3-query/issues"
+  },
+  "homepage": "https://github.com/e2fyi/sqlite3-query#readme",
+  "dependencies": {
+    "better-sqlite3": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.7",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3"
+  }
+}
